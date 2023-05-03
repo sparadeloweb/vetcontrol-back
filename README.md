@@ -1,13 +1,10 @@
-# ⚡️ Easy SignIn and SignUp Express.js & MongoDB API
+# VetControl Backend 💻
 
-👉🏼 Login API example using Express.js, Node.js and MongoDB. It also has a Task CRUD.
+Proyecto para Laboratorio de Computación 3 - Tecnicatura Universitaria en Programación. 
+Por Santiago Paradelo, Pablo Alvarez, Elias Gonzales, Valentino Gambino.
 
-1️⃣ Run the command **npm install** at the root folder of the project <br>
-2️⃣ Create .env file and setup this variables: <br>
-PORT= // Used for Express <br>
-SECURE_KEY= // Random Key for JWT <br>
-CONNECTION_URI= // MongoDB URI <br>
-3️⃣ Run the command **npm run serve** at the root folder of the project
+# Variables necesarias para .env 📚
 
-
-💬 If you want to talk, <a href="mailto:santiagoparadelo123@gmail.com">send me a mail</a> or <a href="https://www.linkedin.com/in/santiagorafaelparadelo/">find me at LinkedIn</a> !
+PORT: Puerto a utilizar en la ejecución del backend
+SECURE_KEY: Llave segura para el cifrado de JWT
+CONNECTION_URI: Link de conexión para la base de datos de MongoDB
