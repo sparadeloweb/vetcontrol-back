@@ -17,6 +17,5 @@ app.use(morgan())
 
 // Routes
 app.use(require('./routes/authRoute'))
-app.use('/todo', require('./routes/todoRoute'))
 
 module.exports = app;
