@@ -17,5 +17,7 @@ app.use(morgan())
 
 // Routes
 app.use(require('./routes/authRoute'))
+app.use(require('./routes/petRoute'))
+app.use(require('./routes/appointmentRoute'))
 
 module.exports = app;
